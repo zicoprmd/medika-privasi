@@ -81,7 +81,7 @@ export function Services() {
               <Button
                 variant={plan.highlighted ? 'secondary' : 'outline'}
                 className="w-full"
-                onClick={() => window.open('https://wa.me/6281234567890', '_blank')}
+                onClick={() => window.open('https://wa.me/6285770207572?text=Halo dok, saya mau konsultasi. Bisa dibantu?', '_blank')}
               >
                 Pilih Paket Ini
               </Button>

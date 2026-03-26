@@ -27,7 +27,7 @@ export function Navbar() {
             <a href="#layanan" className="text-gray-600 hover:text-[#10B981] transition-colors text-sm font-medium">Layanan</a>
             <a href="#cara-kerja" className="text-gray-600 hover:text-[#10B981] transition-colors text-sm font-medium">Cara Kerja</a>
             <a href="#tentang" className="text-gray-600 hover:text-[#10B981] transition-colors text-sm font-medium">Tentang</a>
-            <Button variant="primary" className="text-sm px-5 py-2.5" onClick={() => window.open('https://wa.me/6281234567890', '_blank')}>
+            <Button variant="primary" className="text-sm px-5 py-2.5" onClick={() => window.open('https://wa.me/6285770207572?text=Halo dok, saya mau konsultasi. Bisa dibantu?', '_blank')}>
               <Icons.WhatsApp /> Chat Sekarang
             </Button>
           </div>

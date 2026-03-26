@@ -1,5 +1,6 @@
 import { Button } from './UI'
 import { Icons } from './Icons'
+import foto from "../img/pasfotosquare.jpg"
 
 export function Hero() {
   return (
@@ -24,7 +25,7 @@ export function Hero() {
               Layanan kesehatan modern dengan pendekatan personal dan berbasis teknologi. Tanpa antre, tanpa ribet, langsung dapat konsultasi berkualitas.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button className="text-lg px-8 py-4" onClick={() => window.open('https://wa.me/6281234567890', '_blank')}>
+              <Button className="text-lg px-8 py-4" onClick={() => window.open('https://wa.me/6285770207572?text=Halo dok, saya mau konsultasi. Bisa dibantu?', '_blank')}>
                 <Icons.WhatsApp /> Booking Sekarang via WhatsApp
               </Button>
               <a href="#layanan">
@@ -60,9 +61,9 @@ export function Hero() {
               <div className="absolute inset-12 bg-white rounded-full shadow-2xl flex items-center justify-center">
                 <div className="text-center p-8">
                   <img
-                    src="/src/img/pasfotosquare.jpg"
+                    src={foto}
                     alt="dr. Zico Permadi"
-                    className="w-20 h-20 mx-auto mb-4 rounded-2xl object-cover"
+                    className="w-24 h-24 mx-auto mb-4 rounded-2xl object-cover shadow-md border border-gray-200"
                   />
                   <p className="font-semibold text-gray-900">dr. Zico Permadi</p>
                   <p className="text-sm text-gray-500">“Dokter umum berpengalaman”</p>
